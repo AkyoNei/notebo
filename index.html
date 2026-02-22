@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>notebo</title>
+  <meta name="description" content="Personal app for managing schedules.">
+
+  <meta name="theme-color" content="#fff">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/game-console.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/game-console.png">
+
+  <!--  FONTS  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+</head>
+<body>
+
+  <!--  PRELOADER  -->
+    <div id="preloader">
+      <div class="loader__wrap">
+        <div class="loader__indicator">
+            <div class="typing-circle"></div>
+            <div class="typing-circle"></div>
+            <div class="typing-circle"></div>
+            <div class="typing-shadow"></div>
+            <div class="typing-shadow"></div>
+            <div class="typing-shadow"></div>
+        </div>
+      </div>
+    </div>
+  <!--  PRELOADER END  -->
+
+  <!--  MAIN CONTENT  -->
+    <nav class="nav__container">
+        <h1>notebo</h1>
+    </nav>
+
+    <content class="content__container"></content>
+
+      <div class="up__area">
+        <h2 class="blink__text">Today :</h2>
+        <h2 id="today" class="daily__text"></h2>
+      </div>
+
+      <div id="schedule" class="sekedul__list"></div>
+    </content>  
+
+    <div class="timeline">
+      <div class="timeline-progress" id="timelineBar"></div>
+      <div class="timeline-dot" id="timelineDot"></div>
+    </div>
+      <div id="dots" class="dots"></div>
+  <!--  MAIN CONTENT END  -->
+
+<script defer src="script.js"></script>
+  
+</body>
+</html>
