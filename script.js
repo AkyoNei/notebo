@@ -72,13 +72,13 @@ weekday:[
 
 weekend:[
 {start:"07:00",end:"08:30",task:"free"},
-{start:"08:30",end:"09:30",task:"coding"},
-{start:"09:30",end:"10:30",task:"free"},
+{start:"08:30",end:"10:00",task:"coding"},
+{start:"10:00",end:"10:30",task:"free"},
 {start:"10:30",end:"12:00",task:"general studies"},
 {start:"12:00",end:"14:30",task:"free"},
-{start:"14:30",end:"15:30",task:"japanese"},
-{start:"15:30",end:"20:00",task:"free"},
-{start:"16:30",end:"16:50",task:"yoga"},
+{start:"14:30",end:"16:00",task:"japanese"},
+{start:"16:00",end:"19:45",task:"free"},
+{start:"19:45",end:"20:00",task:"yoga"},
 {start:"20:00",end:"20:20",task:"shower"},
 {start:"20:20",end:"00:00",task:"free"}
 ]
